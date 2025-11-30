@@ -12,7 +12,7 @@ const getBookById = asyncHandler(async (req, res) => {
     res.status(404);
     throw new Error('Book not found');
   }
-  //res.json(book)#;
+  res.json(book);
 });
 
 const createBook = asyncHandler(async (req, res) => {
