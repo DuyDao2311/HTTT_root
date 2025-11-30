@@ -7,6 +7,10 @@ const bookSchema = new Schema(
       required: true,
       trim: true,
     },
+    image: {
+      type: String,
+      trim: true,
+    },
     author: {
       type: String,
       required: true,
@@ -34,6 +38,7 @@ const bookSchema = new Schema(
       type: String,
       trim: true,
     },
+    
   },
   { timestamps: true }
 );
