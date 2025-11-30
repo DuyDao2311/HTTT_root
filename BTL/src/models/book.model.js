@@ -38,7 +38,6 @@ const bookSchema = new Schema(
       type: String,
       trim: true,
     },
-    
   },
   { timestamps: true }
 );
